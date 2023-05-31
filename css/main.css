@@ -1,0 +1,345 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: #737373;
+}
+/*--------------------------------nav------------------------------*/
+.main{
+      width: 100%;
+      height: 90px;
+      position: fixed;
+      z-index: 999;
+}
+.main .nav{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      background-color: #fbf8f3;
+}
+.main .nav .one{
+      width: 30%;
+}
+.main .nav .one img{
+      width: 30%;
+      margin: 8% 40%;
+}
+.main .nav .two {
+      width: 60%;
+}
+.main .nav .two ul{
+      display: flex;
+      justify-content: space-evenly;
+      margin: 4% 15%;
+      list-style: none;
+      font-size: 20px;
+      align-items: center;
+}
+.main .nav .two a{
+      text-decoration: none;
+}
+.main .nav .two i{
+      color: white;
+}
+.main .nav .two button{
+      color: white;
+      background-color: #1da1f2;
+      font-size: 20px;
+      border-style: none;
+      padding: 10px;
+      border-radius: 5px;
+}
+.main .nav .three{
+      display: none;
+      font-size: 30px;
+      justify-content: center;
+      align-items: center;
+      margin: 20%;
+}
+.main .nav .three a{
+      text-decoration: none;
+      width: 15%;
+      margin: 6%;
+}
+.main .nav .three i{
+      color: black;
+      text-align: center;
+}
+
+@media(max-width:800px){
+      .main .nav{
+            justify-content: space-between;
+      }
+      .main .nav .two{
+            display: none;
+      }
+      .main .nav .one{
+            width: 40%;
+            margin: 4% 0%;
+      }
+      .main .nav .three{
+            display: contents;
+            width: 40%;
+      }
+}
+/*--------------------------------nav------------------------------*/
+.clear{ 
+      clear: both;
+}
+/*--------------------------------header------------------------------*/
+header{
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #fbf8f3f6;
+      padding: 10% 5% 2% 5%;
+}
+header .part1{
+      width: 50%;
+}
+header .part1 h2{
+      color: black;
+      font-weight: bolder;
+      font-size: 60px;
+}
+header .part1 p{
+      padding: 4% 0%;
+      font-size: 22px;
+      line-height: 1.5;
+}
+header .part1 .bot{
+      display: flex;
+}
+header .part1 .bot .one{
+      color: white;
+      background-color: #1da1f2;
+      font-size: 20px;
+      border-style: none;
+      padding: 10px;
+      border-radius: 5px;
+}
+header .part1 .bot .one i{
+      color: white;
+}
+header .part1 span{
+      color: #1f7898;
+      font-weight: bolder;
+}
+header .part1 .bot .two{
+      background-color: #fbf8f3f6;
+      border-style: none;
+      color: #1f7898;
+      font-size: 15px;
+      font-weight: bold;
+      margin-left: 2%;
+      margin-top: 3%;
+}
+header .part1 .bot .two i{
+      color: #1f7898;
+}
+header .part1  img{
+      width: 35%;
+      padding-top: 2%;
+}
+header .part2{
+      width: 35%;
+}
+header .part2 img{
+      width: 90%;
+      margin: auto;
+}
+
+@media(max-width:800px){
+      header{
+            flex-wrap: wrap-reverse;
+            padding-top: 25%;
+      }
+      header .part1{
+            width: 90%;
+      }
+      header .part2{
+            width: 90%;
+      }
+      header .part1 h2{
+            font-size: 40px;
+      }
+      header .part1 img{
+            width: 60%;
+      }
+      header .part1 p{
+            line-height: normal;
+      }
+}
+/*--------------------------------header------------------------------*/
+/*--------------------------------container------------------------------*/
+.A{
+      margin: 3% 0%;
+} 
+.A h2{
+      color: black;
+      font-size: 40px;
+      font-weight: bolder;
+      padding:1% 2.5%;
+}
+.A h3{
+      color: black;
+      padding: 1% 0%;
+}
+.A i{
+      color: black;
+      font-size: 30px;
+      padding: 1% 0;
+}
+.A .topy{
+      padding: 2%;
+      margin: 1%;
+      border:#737373;
+      border-style: solid;
+      border-radius: 2%;
+}
+@media(max-width:800px){
+      .A div{
+            margin: 5%;
+      }
+      .A .topy{
+            margin: 4%;
+            padding: 4%;
+      }
+      .A h2{
+            text-align: center;
+      }
+}
+/*--------------------------------container------------------------------*/
+/*--------------------------------B------------------------------*/
+.B{
+      background-color: #d7f5f5;
+      padding: 1%;
+}
+.B .car{
+      background-color: #fff;
+      margin: 1%;
+      padding:2% 1%;
+}
+.B h2{
+      color: black;
+      margin: 2%;
+}
+.B img{
+      width: 100%;
+}
+.B h5{
+      color: black;
+}
+.B i{
+      padding-left: 50%;
+      padding-top: 10%;
+      font-size: 20px;
+      color: #1da1f2;
+}
+.B .hello{
+      padding: 5% 7%;
+}
+@media(max-width:800px){
+      .B .car{
+            margin: 3%;
+      }
+      .B{
+            padding: 10%;
+      }
+}
+/*--------------------------------B------------------------------*/
+/*--------------------------------c------------------------------*/
+.C .part button{
+      color: white;
+      background-color: #1da1f2;
+      font-size: 20px;
+      border-style: none;
+      padding: 10px 30px;
+      border-radius: 5px;
+      text-align: center;
+      margin: 4% 20%;
+}
+.C .part button i{
+      color: #fff;
+}
+.C{
+      padding: 4%;
+      width: 45%;
+      margin: auto;
+      text-align: center;
+}
+.C hr{
+      width:70%;
+      margin: auto;
+}
+.C p{
+      font-size: 20px;
+}
+.C h2{
+      color: black;
+}
+.C .part{
+      border:2px solid #ffad23;
+      padding: 5%;
+      text-align: left;
+}
+.C .part h4{
+      font-size: 30px;
+}
+.C .part span{
+      color: black;
+      font-size: 30px;
+}
+.C .part p i{
+      color: #fff;
+      background-color: rgb(103, 240, 194);
+      border-radius: 50%;
+      padding: 4px;
+}
+@media(max-width:800px){
+      .C
+      {
+            width: 100%;
+      }
+      .C .part p{
+            font-size: 15px;
+      }
+      .C .part{
+            padding: 8%;
+      }
+      .C .part button{
+            font-size: 15px;
+            padding: 10px 20px;
+            width: 80%;
+            margin: 2% 10%;
+      }
+}
+/*--------------------------------c------------------------------*/
+footer {
+      background-color: #d7f5f5;
+      display: flex;
+      justify-content: space-between;
+      padding:2% 10% ;
+      font-size: 20px;
+}
+footer .one{
+      color: #1da1f2;
+      text-decoration: none;
+      transition: .3s;
+}
+footer .one:hover{
+      transition: .3s;
+      text-decoration: underline;
+      color: #1f7898;
+}
+footer .two{
+      color: black;
+}
+footer .two i{
+      color: black;
+}
+@media(max-width:800px){
+      footer{
+            font-size: 15px;
+      }
+}
